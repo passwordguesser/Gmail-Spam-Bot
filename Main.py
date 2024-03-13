@@ -1,7 +1,7 @@
 import smtplib
-toaddrs = ''
-fromaddrs = ''
-message = ''
+toaddrs = 'loic8400@gmail.com'
+fromaddrs = 'Statue8166@gmail.com'
+message = 'lol'
 with smtplib.SMTP('smtp.gmail.com', '587') as smtpserver:
   smtpserver.ehlo()
   smtpserver.starttls()
